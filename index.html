@@ -36,38 +36,10 @@
             margin-bottom: 20px;
         }
 
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
+        p {
             font-size: 1em;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"], input[type="date"], input[type="tel"], input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            font-size: 1em;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            background-color: #ff66b2;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1.1em;
-            cursor: pointer;
-            border-radius: 4px;
-            width: 100%;
-            margin-top: 20px;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #e65d94;
+            line-height: 1.6;
+            margin-bottom: 20px;
         }
 
         .footer {
@@ -85,6 +57,15 @@
         .footer a:hover {
             text-decoration: underline;
         }
+
+        .qrcode {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .qrcode p {
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
@@ -94,57 +75,32 @@
     </header>
 
     <div class="container">
-        <h2>预约信息</h2>
+        <h2>4EVER预约信息</h2>
         <p>亲爱的顾客，感谢您对我们的信任和支持！我们非常期待为您提供专业的美容服务。在开始预约之前，请您填写以下信息，以便我们为您量身定制最合适的服务体验。😊</p>
 
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">姓名（护照名字）：</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="dob">出生年月日：</label>
-                <input type="date" id="dob" name="dob" required>
-            </div>
-
-            <div class="form-group">
-                <label for="contact">联系方式：</label>
-                <input type="tel" id="contact" name="contact" required>
-            </div>
-
-            <div class="form-group">
-                <label for="passport">护照号：</label>
-                <input type="text" id="passport" name="passport" required>
-            </div>
-
-            <div class="form-group">
-                <label for="service">咨询项目：</label>
-                <input type="text" id="service" name="service" required>
-            </div>
-
-            <div class="form-group">
-                <label for="time">咨询意向时间：</label>
-                <input type="text" id="time" name="time" required>
-            </div>
-
-            <div class="form-group">
-                <label for="medical">是否有服用中的药品/是否目前患有疾病/是否有过敏物：</label>
-                <input type="text" id="medical" name="medical" required>
-            </div>
-
-            <input type="submit" value="提交预约">
-        </form>
-
-        <p>温馨提示：</p>
+        <h3>4EVER Booking Information</h3>
         <ul>
-            <li>请确保填写的信息准确无误，便于我们为您安排合适的咨询及服务时间。</li>
+            <li><strong>Booking Store:</strong> 【】</li>
+            <li><strong>1. Name (Passport Name):</strong> 姓名（护照名字）：</li>
+            <li><strong>2. Date of Birth:</strong> 出生年月日：</li>
+            <li><strong>3. Contact Information:</strong> 联系方式：</li>
+            <li><strong>4. Passport Number:</strong> 护照号：</li>
+            <li><strong>5. Consultation Service:</strong> 咨询项目：</li>
+            <li><strong>6. Preferred Consultation Time:</strong> 咨询意向时间：</li>
+            <li><strong>7. Are you currently taking any medication? / Do you have any existing medical conditions? / Do you have any allergies?</strong> 是否有服用中的药品/是否目前患有疾病/是否有过敏物：</li>
+        </ul>
+
+        <h3>温馨提示：</h3>
+        <ul>
+            <li>请您确保填写的信息准确无误后，发送到4ever公众号，或点击菜单栏添加并发送给4ever小助理，便于我们为您安排合适的咨询及服务时间。</li>
             <li>我们的所有服务均严格遵守隐私保护政策，您的个人信息仅用于预约登记，绝不会泄露给第三方。</li>
         </ul>
+
+        <p>如果您有任何疑问或需要进一步的帮助，随时联系我们，我们将竭诚为您提供最贴心的服务！💕</p>
     </div>
 
     <div class="footer">
-        <p>如果您有任何疑问或需要进一步的帮助，随时 <a href="mailto:info@4everclinic.com">联系我们</a>，我们将竭诚为您提供最贴心的服务！💕</p>
+        <p>感谢您的访问！期待为您提供优质的美容服务！</p>
     </div>
 
 </body>
